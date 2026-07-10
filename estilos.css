@@ -1,13 +1,25 @@
+:root {
+    --color-primary: #ff6600;
+    --color-background: #000000;
+    --font-main: 'Inter', sans-serif;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Regular.ttf');
+}
+
 body {
-    background-color: #000000;
+    background-color: var(--color-background);
     color: rgb(107, 34, 34);
-    font-family: 'Orbitron', Arial;
+    font-family: var(--font-main);
     font-size: 20px;
     text-align: center;
     overflow: auto;
     margin: 0;
     padding-top: 20px;
 }
+
 
 a {
     display: inline-block;
